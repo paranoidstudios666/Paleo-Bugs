@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paleobugs:block/amber_lamp"
+    },
+    "facing=east": {
+      "model": "paleobugs:block/amber_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paleobugs:block/amber_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paleobugs:block/amber_lamp",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "paleobugs:block/amber_lamp",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "paleobugs:block/amber_lamp",
+      "x": 90
+    }
+  }
+}
