@@ -1,0 +1,74 @@
+{
+  "fly1": {
+    "sounds": [
+      {
+        "name": "paleobugs:bbc_dragonfly-_nhu0509521_mp3cut.net_1",
+        "stream": false
+      }
+    ]
+  },
+  "fky": {
+    "sounds": [
+      {
+        "name": "paleobugs:bbc_dragonfly-_nhu0509521_mp3cut.net_2",
+        "stream": false
+      }
+    ]
+  },
+  "fly": {
+    "sounds": [
+      {
+        "name": "paleobugs:bbc_dragonfly-_nhu0509521_mp3cut.net",
+        "stream": false
+      }
+    ]
+  },
+  "grass1": {
+    "sounds": [
+      {
+        "name": "paleobugs:bbc_field-gras_nhu0509611",
+        "stream": false
+      }
+    ]
+  },
+  "gras2": {
+    "sounds": [
+      {
+        "name": "paleobugs:bbc_field-gras_nhu0509612",
+        "stream": false
+      }
+    ]
+  },
+  "boing": {
+    "sounds": [
+      {
+        "name": "paleobugs:boiung",
+        "stream": false
+      }
+    ]
+  },
+  "arana1": {
+    "sounds": [
+      {
+        "name": "paleobugs:nigarana_walk",
+        "stream": false
+      }
+    ]
+  },
+  "aranatak": {
+    "sounds": [
+      {
+        "name": "paleobugs:pideratak",
+        "stream": false
+      }
+    ]
+  },
+  "skiperss": {
+    "sounds": [
+      {
+        "name": "paleobugs:sonido_skiper",
+        "stream": false
+      }
+    ]
+  }
+}
