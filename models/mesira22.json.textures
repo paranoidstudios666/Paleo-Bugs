@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "side",
+        "1": "topeee",
+        "2": "under"
+      },
+      "name": "default"
+    }
+  }
+}
