@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "paleobugs:fossil_trunk",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -50
+    },
+    "max_inclusive": {
+      "absolute": 40
+    }
+  },
+  "biomes": [
+    "badlands",
+    "wooded_badlands",
+    "bamboo_jungle",
+    "basalt_deltas",
+    "beach",
+    "birch_forest",
+    "cherry_grove",
+    "cold_ocean",
+    "crimson_forest",
+    "dark_forest",
+    "deep_cold_ocean",
+    "deep_dark",
+    "deep_frozen_ocean",
+    "deep_ocean",
+    "desert",
+    "dripstone_caves",
+    "eroded_badlands",
+    "flower_forest",
+    "forest",
+    "lush_caves",
+    "jungle",
+    "stony_peaks",
+    "mangrove_swamp",
+    "old_growth_birch_forest",
+    "old_growth_pine_taiga",
+    "river",
+    "plains",
+    "savanna",
+    "windswept_savanna",
+    "savanna_plateau",
+    "stony_shore",
+    "swamp",
+    "windswept_hills"
+  ],
+  "use_expansion_hack": false
+}

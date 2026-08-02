@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "paleobugs:petrified_wood"
+    }
+  },
+  "result": {
+    "item": "paleobugs:stripped_petrified_wood",
+    "count": 1
+  }
+}

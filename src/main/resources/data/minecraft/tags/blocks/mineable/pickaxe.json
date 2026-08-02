@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "paleobugs:amber_lamp",
+    "paleobugs:chiseled_petrified_wood",
+    "paleobugs:stripped_petrified_wood_brick",
+    "paleobugs:petrified_wood_tiles",
+    "paleobugs:stripped_petrified_wood",
+    "paleobugs:amber_block",
+    "paleobugs:dna_sintetizer",
+    "paleobugs:petrified_wood"
+  ]
+}

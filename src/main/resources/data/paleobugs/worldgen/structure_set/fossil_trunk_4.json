@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "paleobugs:fossil_trunk_4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 14,
+    "separation": 12,
+    "salt": 1488621914
+  }
+}

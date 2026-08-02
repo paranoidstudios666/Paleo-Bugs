@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "paleobugs:structure_feature",
+          "config": {
+            "structure": "paleobugs:tronco2",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -4,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "paleobugs:structure_feature",
+          "config": {
+            "structure": "paleobugs:tronco3",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -4,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "paleobugs:structure_feature",
+          "config": {
+            "structure": "paleobugs:tronco4",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -4,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "paleobugs:structure_feature",
+          "config": {
+            "structure": "paleobugs:tronco1",
+            "random_rotation": true,
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:water",
+              "minecraft:grass_block"
+            ],
+            "offset": [
+              0,
+              -4,
+              0
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

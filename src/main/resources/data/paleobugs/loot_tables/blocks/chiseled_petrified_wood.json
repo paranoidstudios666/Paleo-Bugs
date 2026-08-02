@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "paleobugs:blocks/chiseled_petrified_wood",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "paleobugs:chiseled_petrified_wood"
+        }
+      ]
+    }
+  ]
+}

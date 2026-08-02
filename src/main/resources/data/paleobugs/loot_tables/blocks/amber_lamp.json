@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "paleobugs:blocks/amber_lamp",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "paleobugs:amber_lamp"
+        }
+      ]
+    }
+  ]
+}
