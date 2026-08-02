@@ -1,0 +1,10 @@
+{
+  "parent": "paleobugs:custom/infuro",
+  "textures": {
+    "all": "paleobugs:block/cac2",
+    "particle": "paleobugs:block/cac2",
+    "0": "paleobugs:block/cac2",
+    "1": "paleobugs:block/caca"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "paleobugs:item/pider_egg"
+  },
+  "render_type": "translucent"
+}

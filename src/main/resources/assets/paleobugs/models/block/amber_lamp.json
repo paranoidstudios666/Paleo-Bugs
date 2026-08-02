@@ -1,0 +1,9 @@
+{
+  "parent": "paleobugs:custom/lamppp2444",
+  "textures": {
+    "all": "paleobugs:block/ambarrrrr",
+    "particle": "paleobugs:block/ambarrrrr",
+    "0": "paleobugs:block/lampp"
+  },
+  "render_type": "solid"
+}

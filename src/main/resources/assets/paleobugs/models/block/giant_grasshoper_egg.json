@@ -1,0 +1,9 @@
+{
+  "parent": "paleobugs:custom/huevo_mediano",
+  "textures": {
+    "all": "paleobugs:block/hopper_egg",
+    "particle": "paleobugs:block/hopper_egg",
+    "0": "paleobugs:block/webo11"
+  },
+  "render_type": "solid"
+}

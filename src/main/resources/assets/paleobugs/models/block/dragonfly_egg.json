@@ -1,0 +1,9 @@
+{
+  "parent": "paleobugs:custom/huevo_chico",
+  "textures": {
+    "all": "paleobugs:block/libelula",
+    "particle": "paleobugs:block/libelula",
+    "0": "paleobugs:block/webo1"
+  },
+  "render_type": "translucent"
+}

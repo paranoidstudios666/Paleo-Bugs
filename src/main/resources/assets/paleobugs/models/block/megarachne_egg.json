@@ -1,0 +1,9 @@
+{
+  "parent": "paleobugs:custom/huevo_grande",
+  "textures": {
+    "all": "paleobugs:block/pider_egg",
+    "particle": "paleobugs:block/pider_egg",
+    "0": "paleobugs:block/webo22"
+  },
+  "render_type": "solid"
+}

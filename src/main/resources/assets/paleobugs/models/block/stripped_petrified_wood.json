@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paleobugs:block/topeeerrr",
+    "up": "paleobugs:block/topeeerrr",
+    "north": "paleobugs:block/peladaa",
+    "east": "paleobugs:block/peladaa",
+    "south": "paleobugs:block/peladaa",
+    "west": "paleobugs:block/peladaa",
+    "particle": "paleobugs:block/topeeerrr"
+  },
+  "render_type": "solid"
+}

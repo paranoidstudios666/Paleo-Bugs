@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paleobugs:block/ptri",
+    "up": "paleobugs:block/ptri",
+    "north": "paleobugs:block/petrifiedwood",
+    "east": "paleobugs:block/petrifiedwood",
+    "south": "paleobugs:block/petrifiedwood",
+    "west": "paleobugs:block/petrifiedwood",
+    "particle": "paleobugs:block/ptri"
+  },
+  "render_type": "solid"
+}

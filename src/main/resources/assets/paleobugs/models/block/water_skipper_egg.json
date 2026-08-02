@@ -1,0 +1,9 @@
+{
+  "parent": "paleobugs:custom/huevo_mediano_-_copia",
+  "textures": {
+    "all": "paleobugs:block/inflarer",
+    "particle": "paleobugs:block/inflarer",
+    "0": "paleobugs:block/webo22"
+  },
+  "render_type": "solid"
+}

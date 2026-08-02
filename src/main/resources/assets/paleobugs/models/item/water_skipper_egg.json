@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "paleobugs:item/inflarer"
+  },
+  "render_type": "translucent"
+}
