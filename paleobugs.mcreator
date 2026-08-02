@@ -1,0 +1,1530 @@
+{
+  "mod_elements": [
+    {
+      "name": "Salto",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/SaltoProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "GrasshopperOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grasshopper_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/GrasshopperOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MountControl1OnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_control_1_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/MountControl1OnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MountControl1",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_control_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/network/MountControl1Message.java"
+        ]
+      }
+    },
+    {
+      "name": "SuspiciousAmber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_amber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/item/SuspiciousAmberItem.java",
+          "src/main/resources/assets/paleobugs/models/item/suspicious_amber.json"
+        ]
+      }
+    },
+    {
+      "name": "ReactivationTableOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reactivation_table_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/ReactivationTableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "R0OnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_0_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/R0OnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ReactivationDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reactivation_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/item/ReactivationDustItem.java",
+          "src/main/resources/assets/paleobugs/models/item/reactivation_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "GrasshopperRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grasshopper_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/GrasshopperRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Arkanes",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkanes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/loot_tables/arkane.json"
+        ]
+      }
+    },
+    {
+      "name": "ReactivationTableGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reactivation_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/client/gui/ReactivationTableGuiScreen.java",
+          "src/main/java/net/mcreator/paleobugs/world/inventory/ReactivationTableGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Ambers",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambers",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PaleoArkane",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paleo_arkane",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Caida",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caida",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/CaidaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantGrasshoper",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_grasshoper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/client/renderer/GiantGrasshoperRenderer.java",
+          "src/main/java/net/mcreator/paleobugs/entity/GiantGrasshoperEntity.java",
+          "src/main/resources/assets/paleobugs/models/item/giant_grasshoper_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PetrifiedWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/block/PetrifiedWoodBlock.java",
+          "src/main/resources/assets/paleobugs/blockstates/petrified_wood.json",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/petrified_wood.json",
+          "src/main/resources/assets/paleobugs/models/item/petrified_wood.json",
+          "src/main/resources/assets/paleobugs/models/block/petrified_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Meganeura",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meganeura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/entity/MeganeuraEntity.java",
+          "src/main/resources/assets/paleobugs/models/item/meganeura_spawn_egg.json",
+          "src/main/java/net/mcreator/paleobugs/client/renderer/MeganeuraRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "GiantWaterSkipper",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_water_skipper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/entity/GiantWaterSkipperEntity.java",
+          "src/main/java/net/mcreator/paleobugs/client/renderer/GiantWaterSkipperRenderer.java",
+          "src/main/resources/assets/paleobugs/models/item/giant_water_skipper_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "DnaSintetizer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_sintetizer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paleobugs/models/block/dna_sintetizer.json",
+          "src/main/java/net/mcreator/paleobugs/block/DnaSintetizerBlock.java",
+          "src/main/java/net/mcreator/paleobugs/block/entity/DnaSintetizerBlockEntity.java",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/dna_sintetizer.json",
+          "src/main/resources/assets/paleobugs/blockstates/dna_sintetizer.json",
+          "src/main/resources/assets/paleobugs/models/item/dna_sintetizer.json"
+        ]
+      }
+    },
+    {
+      "name": "DnaSintetizerGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_sintetizer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/client/gui/DnaSintetizerGuiScreen.java",
+          "src/main/java/net/mcreator/paleobugs/world/inventory/DnaSintetizerGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Amber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/item/AmberItem.java",
+          "src/main/resources/assets/paleobugs/models/item/amber.json"
+        ]
+      }
+    },
+    {
+      "name": "DnaSintetizerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_sintetizer_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/DnaSintetizerOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmberBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paleobugs/models/item/amber_block.json",
+          "src/main/resources/assets/paleobugs/models/block/amber_block.json",
+          "src/main/resources/assets/paleobugs/blockstates/amber_block.json",
+          "src/main/java/net/mcreator/paleobugs/block/AmberBlockBlock.java",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/amber_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Megarachne",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megarachne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/entity/MegarachneEntity.java",
+          "src/main/java/net/mcreator/paleobugs/client/renderer/MegarachneRenderer.java",
+          "src/main/resources/assets/paleobugs/models/item/megarachne_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedPetrifiedWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_petrified_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paleobugs/blockstates/stripped_petrified_wood.json",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/stripped_petrified_wood.json",
+          "src/main/resources/assets/paleobugs/models/block/stripped_petrified_wood.json",
+          "src/main/resources/assets/paleobugs/models/item/stripped_petrified_wood.json",
+          "src/main/java/net/mcreator/paleobugs/block/StrippedPetrifiedWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PetrifiedWoodTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_wood_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paleobugs/blockstates/petrified_wood_tiles.json",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/petrified_wood_tiles.json",
+          "src/main/resources/assets/paleobugs/models/block/petrified_wood_tiles.json",
+          "src/main/resources/assets/paleobugs/models/item/petrified_wood_tiles.json",
+          "src/main/java/net/mcreator/paleobugs/block/PetrifiedWoodTilesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedPetrifiedWoodBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_petrified_wood_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/block/StrippedPetrifiedWoodBrickBlock.java",
+          "src/main/resources/assets/paleobugs/models/block/stripped_petrified_wood_brick.json",
+          "src/main/resources/assets/paleobugs/models/item/stripped_petrified_wood_brick.json",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/stripped_petrified_wood_brick.json",
+          "src/main/resources/assets/paleobugs/blockstates/stripped_petrified_wood_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledPetrifiedWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_petrified_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paleobugs/blockstates/chiseled_petrified_wood.json",
+          "src/main/java/net/mcreator/paleobugs/block/ChiseledPetrifiedWoodBlock.java",
+          "src/main/resources/assets/paleobugs/models/item/chiseled_petrified_wood.json",
+          "src/main/resources/assets/paleobugs/models/block/chiseled_petrified_wood.json",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/chiseled_petrified_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberLamp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/loot_tables/blocks/amber_lamp.json",
+          "src/main/resources/assets/paleobugs/blockstates/amber_lamp.json",
+          "src/main/resources/assets/paleobugs/models/block/amber_lamp.json",
+          "src/main/java/net/mcreator/paleobugs/block/AmberLampBlock.java",
+          "src/main/resources/assets/paleobugs/models/item/amber_lamp.json"
+        ]
+      }
+    },
+    {
+      "name": "MeganeuraOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meganeura_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/MeganeuraOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MeganeuraPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meganeura_playback_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/MeganeuraPlaybackConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MegarachneEgg",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megarachne_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/loot_tables/blocks/megarachne_egg.json",
+          "src/main/resources/assets/paleobugs/blockstates/megarachne_egg.json",
+          "src/main/resources/assets/paleobugs/models/block/megarachne_egg.json",
+          "src/main/resources/assets/paleobugs/models/item/megarachne_egg.json",
+          "src/main/java/net/mcreator/paleobugs/block/MegarachneEggBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonflyEgg",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonfly_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paleobugs/blockstates/dragonfly_egg.json",
+          "src/main/resources/assets/paleobugs/models/item/dragonfly_egg.json",
+          "src/main/java/net/mcreator/paleobugs/block/DragonflyEggBlock.java",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/dragonfly_egg.json",
+          "src/main/resources/assets/paleobugs/models/block/dragonfly_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterSkipperEgg",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_skipper_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/block/WaterSkipperEggBlock.java",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/water_skipper_egg.json",
+          "src/main/resources/assets/paleobugs/models/item/water_skipper_egg.json",
+          "src/main/resources/assets/paleobugs/blockstates/water_skipper_egg.json",
+          "src/main/resources/assets/paleobugs/models/block/water_skipper_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GiantGrasshoperEgg",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_grasshoper_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/block/GiantGrasshoperEggBlock.java",
+          "src/main/resources/assets/paleobugs/models/block/giant_grasshoper_egg.json",
+          "src/main/resources/assets/paleobugs/models/item/giant_grasshoper_egg.json",
+          "src/main/resources/assets/paleobugs/blockstates/giant_grasshoper_egg.json",
+          "src/main/resources/data/paleobugs/loot_tables/blocks/giant_grasshoper_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BabyMegarachne",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_megarachne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/client/renderer/BabyMegarachneRenderer.java",
+          "src/main/java/net/mcreator/paleobugs/entity/BabyMegarachneEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MegarachneEggOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megarachne_egg_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/MegarachneEggOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meganeura2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meganeura_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/Meganeura2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantWaterSkipperOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_water_skipper_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/GiantWaterSkipperOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rlamp",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rlamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/recipes/rlamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Rwod",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rwod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/recipes/rwod.json"
+        ]
+      }
+    },
+    {
+      "name": "Rod3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rod_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/recipes/rod_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Rdo4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rdo_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/recipes/rdo_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Wod",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/recipes/wod.json"
+        ]
+      }
+    },
+    {
+      "name": "Sinteis",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sinteis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/recipes/sinteis.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_block_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/AmberBlockBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/EeeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Graskop3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graskop_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/Graskop3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mega3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mega_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/Mega3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mount",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/client/screens/MountOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "MountDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/MountDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Megarachinteger",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megarachinteger",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/MegarachintegerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Returnlife",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnlife",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/ReturnlifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Returnfod",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnfod",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/ReturnfodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabyMegarachneRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_megarachne_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/BabyMegarachneRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Age",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "age",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/AgeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabyGrasshopper",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_grasshopper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/client/renderer/BabyGrasshopperRenderer.java",
+          "src/main/java/net/mcreator/paleobugs/entity/BabyGrasshopperEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BabyGiantWaterSkipper",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_giant_water_skipper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/client/renderer/BabyGiantWaterSkipperRenderer.java",
+          "src/main/java/net/mcreator/paleobugs/entity/BabyGiantWaterSkipperEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Egg2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/Egg2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Egg3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/Egg3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Egg4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/Egg4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BabyMeganeura",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_meganeura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/entity/BabyMeganeuraEntity.java",
+          "src/main/java/net/mcreator/paleobugs/client/renderer/BabyMeganeuraRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Ride",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ride",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/RideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fed2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fed_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/Fed2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tired",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tired",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/TiredProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FossilTrunk",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_trunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/worldgen/template_pool/fossil_trunk.json",
+          "src/main/resources/data/paleobugs/worldgen/structure_set/fossil_trunk.json",
+          "src/main/resources/data/paleobugs/worldgen/structure/fossil_trunk.json"
+        ]
+      }
+    },
+    {
+      "name": "FossilTrunk2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_trunk_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/worldgen/template_pool/fossil_trunk_2.json",
+          "src/main/resources/data/paleobugs/worldgen/structure/fossil_trunk_2.json",
+          "src/main/resources/data/paleobugs/worldgen/structure_set/fossil_trunk_2.json"
+        ]
+      }
+    },
+    {
+      "name": "FossilTrunk3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_trunk_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/worldgen/template_pool/fossil_trunk_3.json",
+          "src/main/resources/data/paleobugs/worldgen/structure/fossil_trunk_3.json",
+          "src/main/resources/data/paleobugs/worldgen/structure_set/fossil_trunk_3.json"
+        ]
+      }
+    },
+    {
+      "name": "FossilTrunk4",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_trunk_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/worldgen/structure_set/fossil_trunk_4.json",
+          "src/main/resources/data/paleobugs/worldgen/template_pool/fossil_trunk_4.json",
+          "src/main/resources/data/paleobugs/worldgen/structure/fossil_trunk_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Fossil5",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paleobugs/worldgen/placed_feature/fossil_5.json",
+          "src/main/resources/data/paleobugs/forge/biome_modifier/fossil_5_biome_modifier.json",
+          "src/main/resources/data/paleobugs/worldgen/configured_feature/fossil_5.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "Returflecha",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returflecha",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/paleobugs/procedures/ReturflechaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "fly1",
+      "files": [
+        "bbc_dragonfly-_nhu0509521_mp3cut.net_1"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "fky",
+      "files": [
+        "bbc_dragonfly-_nhu0509521_mp3cut.net_2"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "fly",
+      "files": [
+        "bbc_dragonfly-_nhu0509521_mp3cut.net"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "grass1",
+      "files": [
+        "bbc_field-gras_nhu0509611"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "gras2",
+      "files": [
+        "bbc_field-gras_nhu0509612"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "boing",
+      "files": [
+        "boiung"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "arana1",
+      "files": [
+        "nigarana_walk"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "aranatak",
+      "files": [
+        "pideratak"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "skiperss",
+      "files": [
+        "sonido_skiper"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:mod:fruta": [
+      "Items.APPLE",
+      "Items.SWEET_BERRIES",
+      "Items.GLOW_BERRIES",
+      "Items.MELON",
+      "Items.BEETROOT",
+      "Items.HONEY_BOTTLE",
+      "Items.SUGAR"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:AmberLamp",
+      "~CUSTOM:ChiseledPetrifiedWood",
+      "~CUSTOM:StrippedPetrifiedWoodBrick",
+      "~CUSTOM:PetrifiedWoodTiles",
+      "~CUSTOM:StrippedPetrifiedWood",
+      "~CUSTOM:AmberBlock",
+      "~CUSTOM:PetrifiedWood"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AmberLamp",
+      "~CUSTOM:ChiseledPetrifiedWood",
+      "~CUSTOM:StrippedPetrifiedWoodBrick",
+      "~CUSTOM:PetrifiedWoodTiles",
+      "~CUSTOM:StrippedPetrifiedWood",
+      "~CUSTOM:AmberBlock",
+      "~CUSTOM:DnaSintetizer",
+      "~CUSTOM:PetrifiedWood"
+    ],
+    "ITEMS:mod:carne": [
+      "Items.FISH#0",
+      "Items.FISH#1",
+      "Items.PORKCHOP",
+      "Items.BEEF",
+      "Items.CHICKEN",
+      "Items.RABBIT",
+      "Items.MUTTON"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:PaleoArkane": [
+      "PetrifiedWood",
+      "StrippedPetrifiedWood",
+      "StrippedPetrifiedWoodBrick",
+      "PetrifiedWoodTiles",
+      "ChiseledPetrifiedWood",
+      "AmberBlock",
+      "Amber",
+      "AmberLamp",
+      "SuspiciousAmber",
+      "DnaSintetizer",
+      "DragonflyEgg",
+      "WaterSkipperEgg",
+      "GiantGrasshoperEgg",
+      "MegarachneEgg",
+      "GiantGrasshoper",
+      "Meganeura",
+      "GiantWaterSkipper",
+      "Megarachne"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.paleobugs.stripped_petrified_wood_brick": "Stripped Petrified Wood Bricks",
+      "entity.paleobugs.megarachne": "Megarachne",
+      "subtitles.gras2": "",
+      "block.paleobugs.amber_block": "Amber Block",
+      "subtitles.arana1": "",
+      "block.paleo_arkane.stripped_petrified_wood": "Stripped Petrified Wood",
+      "entity.paleo_arkane.megarachne": "Megarachne",
+      "item.paleo_arkane.megarachne_spawn_egg": "Megarachne Spawn Egg",
+      "gui.paleo_arkane.mount.label_10": "10",
+      "item.paleo_arkane.suspicious_amber": "Suspicious Amber",
+      "item.paleobugs.meganeura_spawn_egg": "Meganeura Spawn Egg",
+      "block.paleo_arkane.dna_sintetizer": "Dna Sintetizer",
+      "block.paleobugs.dragonfly_egg": "Meganeura Egg",
+      "entity.paleo_arkane.giant_grasshoper": "Giant Grasshoper",
+      "block.paleobugs.petrified_wood": "Petrified Wood",
+      "subtitles.fky": "",
+      "entity.paleobugs.giant_water_skipper": "Giant Water Skipper",
+      "key.paleo_arkane.mount_control_1": "Mount Control ",
+      "entity.paleo_arkane.meganeura": "Meganeura",
+      "item.paleo_arkane.amber": "Amber",
+      "block.paleo_arkane.chiseled_petrified_wood": "Chiseled Petrified Wood ",
+      "block.paleo_arkane.petrified_wood": "Petrified Wood",
+      "block.paleo_arkane.amber_block": "Amber Block",
+      "block.paleo_arkane.megarachne_egg": "Megarachne Egg",
+      "gui.paleo_arkane.mount.label_20": "20",
+      "block.paleo_arkane.dragonfly_egg": "Meganeura Egg",
+      "item.paleobugs.amber": "Amber",
+      "block.paleo_arkane.stripped_petrified_wood_brick": "Stripped Petrified Wood Bricks",
+      "block.paleo_arkane.giant_grasshoper_egg": "Giant Grasshopper Egg",
+      "item.paleo_arkane.giant_grasshoper_spawn_egg": "Giant Grasshoper Spawn Egg",
+      "item.paleobugs.suspicious_amber": "Suspicious Amber",
+      "entity.paleobugs.baby_giant_water_skipper": "Baby Giant Grasshopper",
+      "entity.paleobugs.baby_grasshopper": "Baby Giant Grasshopper",
+      "entity.paleobugs.baby_meganeura": "Baby Meganeura",
+      "subtitles.aranatak": "",
+      "subtitles.fly": "",
+      "subtitles.fly1": "",
+      "item.paleobugs.reactivation_dust": "Reactivation Dust",
+      "entity.paleo_arkane.baby_megarachne": "Baby Megarachne",
+      "subtitles.boing": "",
+      "entity.paleobugs.baby_megarachne": "Baby Megarachne",
+      "block.paleobugs.chiseled_petrified_wood": "Chiseled Petrified Wood ",
+      "block.paleobugs.water_skipper_egg": "Giant Water Skipper Egg",
+      "block.paleobugs.giant_grasshoper_egg": "Giant Grasshopper Egg",
+      "block.paleobugs.petrified_wood_tiles": "Petrified Wood Tiles",
+      "entity.paleobugs.giant_grasshoper": "Giant Grasshoper",
+      "key.paleobugs.mount_control_1": "Mount Control ",
+      "block.paleobugs.stripped_petrified_wood": "Stripped Petrified Wood",
+      "item_group.paleo_arkane.paleo_arkane": "Paleo Arkane",
+      "block.paleo_arkane.water_skipper_egg": "Giant Water Skipper Egg",
+      "item.paleo_arkane.giant_water_skipper_spawn_egg": "Giant Water Skipper Spawn Egg",
+      "item.paleobugs.giant_water_skipper_spawn_egg": "Giant Water Skipper Spawn Egg",
+      "subtitles.skiperss": "",
+      "item_group.paleobugs.paleo_arkane": "Paleo Arkane",
+      "entity.paleo_arkane.giant_water_skipper": "Giant Water Skipper",
+      "item.paleo_arkane.reactivation_dust": "Reactivation Dust",
+      "subtitles.grass1": "",
+      "block.paleo_arkane.petrified_wood_tiles": "Petrified Wood Tiles",
+      "entity.paleobugs.meganeura": "Meganeura",
+      "item.paleobugs.giant_grasshoper_spawn_egg": "Giant Grasshoper Spawn Egg",
+      "block.paleobugs.dna_sintetizer": "Dna Sintetizer",
+      "item.paleo_arkane.meganeura_spawn_egg": "Meganeura Spawn Egg",
+      "item.paleobugs.megarachne_spawn_egg": "Megarachne Spawn Egg",
+      "block.paleobugs.amber_lamp": "Amber Lamp",
+      "block.paleobugs.megarachne_egg": "Megarachne Egg",
+      "block.paleo_arkane.amber_lamp": "Amber Lamp"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paleobugs",
+    "modName": "PaleoBugs",
+    "version": "1.0.0",
+    "author": "Alumno, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.paleobugs"
+  },
+  "mcreatorVersion": 202400452410
+}
