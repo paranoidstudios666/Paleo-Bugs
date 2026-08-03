@@ -1,0 +1,138 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "tronco1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.FLOWING_WATER"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      }
+    ],
+    "spacing": 15,
+    "separation": 8,
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "crimson_forest"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "dripstone_caves"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "lush_caves"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "stony_peaks"
+      },
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "mutated_savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "stone_beach"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "mountains"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": -50,
+    "startHeightMax": 40,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

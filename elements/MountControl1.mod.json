@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Mount Control ",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "MountControl1OnKeyPressed"
+    }
+  }
+}
